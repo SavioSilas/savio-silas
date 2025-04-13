@@ -1,12 +1,122 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Minha GitHub Page</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VOCÊ ESTÁ NO PERFIL ERRADO</title>
+  <style>
+    /* Estilos básicos para a página */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f1f1f1;
+      color: #333;
+    }
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 1rem;
+      text-align: center;
+    }
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+    nav ul li {
+      display: inline;
+      margin: 0 15px;
+    }
+    nav ul li a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .container {
+      max-width: 1000px;
+      margin: 20px auto;
+      padding: 20px;
+      background-color: #fff;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    section {
+      margin-bottom: 30px;
+    }
+    h2 {
+      border-bottom: 2px solid #333;
+      padding-bottom: 5px;
+    }
+    footer {
+      text-align: center;
+      padding: 10px;
+      font-size: 0.9rem;
+      color: #666;
+    }
+  </style>
 </head>
 <body>
-    <h1>Bem-vindo à minha GitHub Page!</h1>
-    <p>Este é um site exemplo hospedado no GitHub.</p>
+  <header>
+    <h1>Bem-vindo(a) à Minha Página Pessoal</h1>
+    <nav>
+      <ul>
+        <li><a href="#sobre">Quem Sou Eu</a></li>
+        <li><a href="#projetos">Projetos</a></li>
+        <li><a href="#linguagens">Linguagens</a></li>
+        <li><a href="#formacao">Formação</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="container">
+    <section id="sobre">
+      <h2>Quem Sou Eu</h2>
+      <p>
+        Olá você! Meu nome é Sávio Silas, sou Dev Full e gamer nas horas vagas 
+      </p>
+    </section>
+
+    <!-- Seção Projetos -->
+    <section id="projetos">
+      <h2>Projetos</h2>
+      <p>
+        A seguir, alguns dos projetos nos quais tive a oportunidade de participar:
+      </p>
+      <ul>
+        <li><strong>Maleare Huunter - Motorola/UFAM:</strong> Projeto focado na detecção de malwares android e pesquisas na área.</li>
+      </ul>
+    </section>
+
+    <!-- Seção Linguagens de Programação -->
+    <section id="linguagens">
+      <h2>Linguagens de Programação</h2>
+      <p>
+        Tenho experiência com as seguintes linguagens:
+      </p>
+      <ul>
+        <li>JavaScript</li>
+        <li>Python</li>
+        <li>HTML e CSS</li>
+      </ul>
+    </section>
+
+    <!-- Seção Formação Acadêmica -->
+    <section id="formacao">
+      <h2>Formação Acadêmica</h2>
+      <p>
+        Minha formação inclui:
+      </p>
+      <ul>
+        <li><strong>Graduação em Andamento:</strong> Engenharria da Computação - UFAM</li>
+        <li><strong>Técnico em Informática</strong>  IFAM</li>
+      </ul>
+    </section>
+  </div>
+
+  <footer>
+    &copy; {% now "Y" %} Sávio Savoia. Todos os direitos reservados.
+  </footer>
 </body>
 </html>
